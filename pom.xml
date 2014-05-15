@@ -31,6 +31,12 @@
       <version>0.10.J8-SNAPSHOT</version>
       <type>pom</type>
     </dependency>
+    <exclusions>
+        <exclusion>
+            <artifactId>tools</artifactId>
+            <groupId>com.sun</groupId>
+        </exclusion>
+    </exclusions>
   </dependencies>
 
   <build>
